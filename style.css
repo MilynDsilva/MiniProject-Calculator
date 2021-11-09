@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+* {
+    font-family: "Titillium Web";
+}
+.mybtn {
+    padding: 10px;
+}
+
+.mybtn button {
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+input {
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+.displaybox { 
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+
+}
+h3 {
+    color: aliceblue;
+    font-size: 1.5rem;
+    
+}
